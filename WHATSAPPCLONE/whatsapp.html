@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WHATSAPP</title>
+    <link rel="stylesheet" href="whatsappclone.css">
+    <style>
+  
+
+   
+   
+   </style>
+</head>
+<body>
+
+
+
+
+      <div class="modal-content">
+  <h2>Daily Usage Limit Reached</h2>
+  <p>You’ve spent your 3-hour limit on this app for today. Please come back tomorrow to continue chatting and staying productive.</p>
+  <button onclick="goToLogin()">Exit App</button>
+</div>
+
+
+    <div class="container">
+        <img src="whatsapplogo2.png" class="logoimg"alt="">
+
+
+
+<!--time-->
+
+<div class="top-bar">  <div class="time-remaining">  
+    ⏳ <span class="label">Time remaining :</span>   
+      <span id="timeDisplay">04h 00m 00s</span>  </div> .
+
+   <!--modal popup-->
+
+  
+
+
+   <!--end popup-->
+
+
+      <!--togglenight-->
+              <label class="win11-toggle">
+      <input type="checkbox" id="darkModeToggle">
+      <span class="slider"></span>
+    </label>
+
+        <h3 class="logo">CALLYAPP</h3>
+         <div class="navigate"><img src="naigation1.png"class="navi" alt=""></div>
+         <img src="chat1.png"  class="chatslogo"alt="">
+         <div class="grouplogo">
+            <!-- <img src="" alt=""> -->
+            <!-- <img src="" class="logoimg"alt=""> -->
+           
+          <img src="call2.png" class="callimg"alt="">
+           <img src="status1.png" class="statusimg"alt="">
+            <img src="meta1.png" class="metaimg"alt="">
+             
+
+
+            <div class="downicons">
+
+                 <img src="star1.png" class="star"alt="">
+                  <img src="settings1.png"class="archive"onclick='settingsclick()' alt="">
+                 <img src="archive.png"class="settings" alt="">
+                
+                 <div class="profile"><img src="member-4.png"class="profile_img" alt=""></div>
+            </div>
+           
+            </div>
+
+           <div class="middlesec">
+
+            <div class="current-time">03/04/2025</div>
+
+            <div class="encrypted">
+              <img src="lock1.png"class="lockme" alt="">
+              <p class="encrypt-message">Messages and calls are end-to-end encrypted.Only people in this chat can 
+              read,listen to ,or share them.Select to learn more.</p>
+            </div>
+
+
+            <audio id="bellsound" src="bell-notification-277267.mp3"preload="auto"hidden></audio>
+           
+
+  <!--bubble msg-->
+  
+    <div class="message-bubble">
+   <div class="sender-name">caleb</div>
+   <div class="message-text">
+    hi wossop bro
+   </div>
+   <div class="timestamp">4:00pm</div>
+    </div>
+   
+
+
+          </div>
+
+           </div>
+
+     <div class="sidebar">
+        <div class="sidebar_top">
+
+         
+
+        <h2 class="chats">Chats</h2>
+        <div class="editgroup">
+        <img src="filter2.png"class="edit" alt="">
+        <img src="filter1.png" class="filter"alt="">
+        </div>
+      
+  </div>
+    <input type="text"class="search"placeholder="         Search or start a new Chat">
+
+
+  
+    <!--sections messages-->
+      <div class="first">
+       
+             <p class="time">10:45am</p>
+            
+               <h4 class="name">Antwi Caleb</h4>
+             
+                <p class="text_message">  <img src="hd-grey-double-tick-check-mark-icon-whatsapp-png-7017516950507853vtozvwqvq.png"class="tick" alt="">Yh I am interested in the affiliate..</p>
+                <span class="number">2</span>
+             <img src="cal.jpg"class="profilemsg" alt="">
+            
+      </div>
+
+ <!--second-->
+       <div class="first">
+
+      <p class="time">9:23am</p>
+            
+               <h4 class="name">Euphemia Biney</h4>
+                <p class="text_message">For we will not play</p>
+                <span class="number">3</span>
+
+
+
+         <img src="euphe.jpg"class="profilemsg" alt="">
+       </div>
+
+
+
+     <div class="first">
+
+             <p class="time">6:00am</p>
+            
+               <h4 class="name">Dr Acheampong</h4>
+                <p class="text_message">Will you be available today?</p>
+                <span class="number">1</span>
+ <img src="member-5.png"class="profilemsg" alt="">
+
+          </div>
+
+
+
+  
+ <div class="first">
+
+             <p class="time">Yesterday</p>
+            
+               <h4 class="name">My Software Engineer</h4>
+                <p class="text_message">I really want this internship offer.</p>
+                <span class="number">2</span>
+ <img src="member-6.png"class="profilemsg" alt="">
+
+          </div>
+
+
+
+
+
+
+
+        <div class="first">
+
+           <p class="time">Yesterday</p>
+            
+               <h4 class="name">Sylvia  </h4>
+                <p class="text_message"><img src="tickblue - Copy.jpg"class="tick" alt="">I will book the ticket tomorrow</p>
+                
+   <img src="profile6.jpeg"class="profilemsg" alt="">
+
+        </div>
+         <div class="first">
+           <p class="time">Yesterday</p>
+            
+               <h4 class="name">Agyemang Dev</h4>
+                <p class="text_message">We will begin today ok.</p>
+                <span class="number">1</span>
+
+           <img src="dev.jpg"class="profilemsg" alt="">
+         </div>
+
+
+ 
+
+     <div class="first">
+
+             <p class="time">Yesterday</p>
+            
+               <h4 class="name">Nana Kwame</h4>
+                <p class="text_message">Hello Caleb.</p>
+                <span class="number">1</span>
+                 <img src="cheddar1.jpg"class="profilemsg" alt="">
+
+          </div>
+
+
+  
+
+
+
+
+
+
+          <div class="first">
+
+             <p class="time">Yesterday</p>
+            
+               <h4 class="name">Dr Mahamudu Bawumia</h4>
+                <p class="text_message">I will be receiving an award today.</p>
+                <span class="number">1</span>
+ <img src="Bawumia.jpg"class="profilemsg" alt="">
+
+          </div>
+
+
+           <div class="first">
+             <p class="time">Yesterday</p>
+            
+               <h4 class="name">Sandra Obeng</h4>
+                <p class="text_message">What do you wanna do now?</p>
+                <span class="number">1</span>
+
+             <img src="profile2.jpeg"class="profilemsg" alt="">
+           </div>
+
+            <div class="first">
+               <p class="time">24/05/2025</p>
+            
+               <h4 class="name">KNUST CYBERSECURITY...</h4>
+                <p class="text_message">Announcements. with regard to th...</p>
+                <span class="number">13</span>
+
+               <img src="cy.jpg"class="profilemsg" alt="">
+            </div>
+
+            <!--last 3-->
+             <div class="first">
+               <p class="time">12/05/2025</p>
+            
+               <h4 class="name">Linux Tabiri</h4>
+                <p class="text_message"><img src="tickblue - Copy.jpg"class="tick" alt="">Thank you so much bro</p>
+                
+
+               <img src="Screenshot_20250527-193407.png" class="profilemsg"alt="">
+             </div>
+
+              <div class="first">
+
+                 <p class="time">11/05/2025</p>
+            
+               <h4 class="name">CV MASTERCLASS</h4>
+                <p class="text_message">We have a conference meeting to...</p>
+                <span class="number">2</span>
+                 <img src="IMG-20250527-WA0049.jpg"class="profilemsg" alt="">
+              </div>
+
+               <div class="first">
+                 <p class="time">10/05/2025</p>
+            
+               <h4 class="name">Darko Ransford</h4>
+                <p class="text_message"><img src="tickblue - Copy.jpg"class="tick" alt="">Yh tomorrow</p>
+              
+
+                 <img src="beardman.jpg"class="profilemsg" alt="">
+               </div>
+      
+
+            <div class="first">
+                 <p class="time">25/05/2025</p>
+            
+               <h4 class="name">Oluchi Iberi</h4>
+                <p class="text_message">I will meet you please</p>
+              
+
+                 <img src="member-1.png"class="profilemsg" alt="">
+               </div>
+      
+
+
+              <div class="first">
+                 <p class="time">22/05/2025</p>
+            
+               <h4 class="name">Frederick Oduro</h4>
+                <p class="text_message">How are you doing?</p>
+              
+
+                 <img src="member-2.png"class="profilemsg" alt="">
+               </div>
+
+
+
+
+               
+              <div class="first">
+                 <p class="time">20/05/2025</p>
+            
+               <h4 class="name">Vincent Company</h4>
+                <p class="text_message">I'm blessed you?</p>
+               <span class="number">1</span>
+
+                 <img src="member-5.png"class="profilemsg" alt="">
+               </div>
+
+
+
+
+
+
+  <div class="settings-popup">
+    <div class="leftpop">
+ 
+    <ul>
+      
+     <li>  General</li>
+      <li><div class="hoveronlist2">Accounts</div></li>
+       <li> <div class="hoveronlist3">Chats</div></li>
+      <li><div class="hoveronlist4">Video & Voice </div></li>
+      <li><div class="hoveronlist5">Notifications </div></li>
+       <li><div class="hoveronlist6">Personalization</div></li>
+      <li> <div class="hoveronlist7">Storage</div></li>
+       <li> <div class="hoveronlist8">Shortcuts</div></li>
+         <li> <div class="hoveronlist9">Help</div></li>
+     
+       <li class="profilesetting">Profile</li>
+    
+
+    </ul>
+
+    </div>
+
+    <div class="rightpop">
+
+  <div class="login-group">
+    <h2>General</h2>
+    <p class="login">Login</p>
+    <p class="start">Start WhatsApp at login</p>
+             <label class="win11-toggle">
+      <input type="checkbox" id="darkModeToggle">
+      <span class="slider"></span>
+    </label>
+
+
+   <p class="language">Language</p>
+   <select name="" id="">
+    <option value="">System default</option>
+   </select>
+   <p class="typing">Typing</p>
+     <p>Change typing settings for autocorrect and <br> mispelled highlight from
+      <a href="">Windows Settings</a>
+     </p>
+     <p class="replace">Replace text with emoji</p>
+     <p>Emoji will replace specific text as you type.</p>
+     <p><a href="">See list of text</a></p>
+     <!-- <br><br> -->
+     <p>To log out of Whatsapp on this computer go to <br> your <a href="">Profile</a> </p>
+
+
+  </div>
+
+
+    </div>
+  
+  </div>
+
+
+
+
+<!--end messages-->
+       
+     </div>
+     <div class="topsectionbar">
+
+        <div class="videoandcall">
+            <img src="videocall1.png" alt="">
+            <div class="line">
+            <img src="call1.png" class="call"alt="">
+            </div>
+        </div>
+      
+            
+            <img src="search1.png" class="seachicon">
+
+        </div>
+     </div>
+     <div class="downbar">
+        <img src="smile1.png"class="smile" alt="">
+        <img src="attach1.png"class="attach" alt="">
+        <input type="text"class="message"placeholder='Type a message' onkeydown="changevoice()">
+
+
+        <div class="control"onclick="displaymsg()">
+
+        <img src="voice2.png"class="voice" alt="">
+
+         <div class=""><img src="send4.png"class="send" alt=""onclick="  allmessage()"></div>
+        </div>
+       
+     </div>
+     </div>
+
+     <script src="script.js"> </script>
+     <script src="allmessageprint.js"></script>
+
+    
+</body>
+</html>
