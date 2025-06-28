@@ -17,7 +17,7 @@ on replicating the layout and design of WhatsApp Web for front-end development p
 ## 🛠 Built With
 
 - HTML5
-- CSS3 (Flexbox & Grid)
+- CSS3 
 - Vanilla JavaScript
 
 ##  What I Learned
